@@ -1,0 +1,32 @@
+.Home {
+    background-color: #ADD8E6;
+}
+
+/* .RecommendSweater {
+    background-color: #f8f9fa
+} */
+
+/* strong {
+    position: relative;
+}
+
+strong::before { */
+/* Highlight color */
+/* background-color: #46b96c;
+
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 60%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+} */
+
+
+.highlight {
+    background-image: linear-gradient(to right, #F27121cc, #E94057cc, #8A2387cc);
+    border-radius: 6px;
+    padding: 3px 6px;
+}
