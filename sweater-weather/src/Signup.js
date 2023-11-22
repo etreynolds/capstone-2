@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import WeatherApi from "./api";
 // import WeatherApi from "./api";
 
 /** Signup form.
@@ -37,8 +36,9 @@ function Signup({ signupUser }) {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        let res = await WeatherApi.signupUser(formData);
+        let res = await signupUser(formData);
         if (res.success) {
+            console.log("user signup successful")
             navigate("/");
         } else {
             setFormErrors(res.errors);
@@ -96,7 +96,6 @@ function Signup({ signupUser }) {
                             <button
                                 type="submit"
                                 className="btn btn-primary float-right mt-3"
-                                onSubmit={handleSubmit}
                             >
                                 Submit
                             </button>
