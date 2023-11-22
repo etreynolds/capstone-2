@@ -31,8 +31,7 @@ Utilizing the [OpenWeather API](https://openweathermap.org/current) users can in
 - Authentication: JWT (JSON Web Tokens)
 - Response formats: JSON
 
-<a href:"https://openweathermap.org/current">
-<img src="https://assets.zabbix.com/img/brands/openweather.jpg" />
+<a href="https://openweathermap.org/current">
+  <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" width="20%"/>
 </a>
-
 
